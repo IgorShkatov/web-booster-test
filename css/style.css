@@ -1,0 +1,102 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+.container {
+    width: 1140px;
+    margin: 0 auto;
+    padding: 30px;
+}
+
+.card_container {
+    display: flex;
+}
+
+
+.card {
+    width: 220px;
+    height: 260px;
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.card_image {
+    width: 50%;
+    height: 65%;
+    
+}
+
+.card_title {
+    font-size: 15px;
+    font-weight: 400;
+    padding-top: 10px;
+    text-align: center;
+}
+
+.card_price {
+    padding-top: 10px;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.card_button {
+    font-size: 13px;
+    margin-top: 10px;
+    padding: 10px 45px;
+    border: none;
+    background-color: red;
+    text-decoration: none;
+    color: white;
+    border-radius: 20px;
+}
+
+.modal {
+    position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  display: none;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+  overflow: auto;
+  background-color: rgba(0,0,0,0.7);
+  }
+
+  .modal_form {
+      padding: 35px;
+      width: 500px;
+      height: 330px;
+      border-radius: 20px;
+      background-color: white;
+      display: flex;
+      flex-direction: column;
+  }
+
+  .modal_form > form >input {
+      width: 100%;
+      margin-bottom: 10px;
+      border: none;
+      outline: none;
+      border-bottom: 1px solid gray;
+      padding: 5px;
+  }
+
+  .btn_send {
+    font-size: 13px;
+    margin-top: 10px;
+    padding: 10px 45px;
+    border: none;
+    background-color: red;
+    text-decoration: none;
+    color: white;
+    border-radius: 20px;
+    cursor: pointer;
+
+  }
